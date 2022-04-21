@@ -840,3 +840,126 @@ textarea:focus::placeholder {
 input:focus::placeholder {
   color:transparent; 
 }
+
+/* About page */
+
+.Page_About {
+  margin-left: 150px;
+  margin-top: 20%;
+}
+
+
+/* My Skills Page */
+
+.Page_MySkills {
+  margin-left: 150px;
+  margin-top: 10%;
+}
+
+
+.Page_MySkills-Technologies {
+  margin-left: 650px;
+  top: 25%;
+  position: absolute;
+  width: 40%;
+  text-align: left;
+  color: #C4C4C4;
+}
+
+.Page_MySkills__Frontend{
+  margin: 0;
+  padding-bottom: 10px;
+  position: relative;
+  line-height: 200%;
+}
+
+.Page_MySkills__Frontend:before {
+  position: absolute;
+  background: linear-gradient(to right, #17FDD7 480px, #373737 50px);
+  height: 2px;
+  content: '';
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.Page_MySkills__Backend {
+  margin: 0;
+  padding-bottom: 10px;
+  position: relative;
+  line-height: 200%;
+}
+
+.Page_MySkills__Backend:before {
+  position: absolute;
+  background: linear-gradient(to right, #FF2253 440px, #373737 50px);
+  height: 2px;
+  content: '';
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.Page_MySkills__ReactJS {
+  margin: 0;
+  padding-bottom: 10px;
+  position: relative;
+  line-height: 200%;
+}
+
+.Page_MySkills__ReactJS:before {
+  position: absolute;
+  background: linear-gradient(to right, #D36BD5 380px, #373737 50px);
+  height: 2px;
+  content: '';
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.Page_MySkills__Angular {
+  margin: 0;
+  padding-bottom: 10px;
+  position: relative;
+  line-height: 200%;
+}
+
+.Page_MySkills__Angular:before {
+  position: absolute;
+  background: linear-gradient(to right, #17FDD7 300px, #373737 50px);
+  height: 2px;
+  content: '';
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.Page_MySkills-Cards {
+  text-align: left;
+  color: #666666;
+  font-size: 13px;
+}
+
+.Page_MySkills__Card1{
+  background-color:#2A2A2A;
+  padding: 10px;
+  width: 240px;
+  display: table;
+  float: left;
+  margin-right: 15px;
+  margin-top: 30px;
+
+}
+
+p, .Page_MySkills__Card1 {
+  color: #666666;
+}
+
+.Page_MySkills__Card2{
+  background-color:#2A2A2A;
+  padding: 10px;
+  width: 240px;
+  display: table;
+  float: right;
+  margin-top: 30px;
+}
