@@ -1,0 +1,12 @@
+body {
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.text::before {
+    content: '';
+    color:red;
+    background-image: url("http://www.w3.org/2000/svg");
+}
+
